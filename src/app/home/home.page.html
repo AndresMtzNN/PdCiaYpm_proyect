@@ -1,0 +1,41 @@
+
+<ion-header>
+  <ion-toolbar>
+    <p class="p_1">B&M Ratings</p>
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/account-page']" icon-only><ion-icon name="person-circle-outline"></ion-icon></ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="div_ctr">
+    <button  [routerLink]="['/recommend-page']" class="btn_index">
+      <img src="assets/img/img_reco.png" alt="image_recommend">
+      <p class="text_button">Recomendados del dia</p>
+    </button>
+  </div>
+
+  <div class="div_ctr">
+    <button [routerLink]="['/category-page']" class="btn_index">
+      <img src="assets/img/img_ask.png" alt="image_recommend">
+      <p class="text_button">Buscar por categoria</p>
+    </button>
+  </div>
+
+  <div class="div_ctr">
+    <button class="btn_index">
+      <img src="assets/img/img_luck.png" alt="image_recommend">
+      <p class="text_button">Me siento con suerte</p>
+    </button>
+  </div>
+
+  <div class="div_ctr">
+    <button class="btn_index">
+      <img src="assets/img/img_about.png" alt="image_recommend">
+      <p class="text_button">Acerca de B&M Ratings</p>
+    </button>
+  </div>
+
+</ion-content>

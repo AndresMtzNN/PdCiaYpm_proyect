@@ -1,0 +1,130 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+ion-header{
+    margin-bottom: 3%;
+}
+
+.p_1
+{
+    margin: 3%;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.div_ctr
+{
+text-align: center;
+}
+
+.btn_index
+{
+width: 90%;
+height: 130px;
+padding-top: 5px;
+background: linear-gradient(to bottom, gray, #585858);
+margin: 0.10cm;
+}
+
+.text_button
+{
+    margin: 5px;
+}
+
+.div_it
+{
+    text-align: center;
+}
+.bookpreview
+{
+    margin-top: 0.2cm;
+    margin-bottom: 0.1cm;
+    width: 35%;
+    height: 180px;
+}
+
+.container_sy01{
+    text-align: center;
+}
+
+.imglogo
+{
+    display: inline-block;
+    margin-top: 0.2cm;
+    margin-bottom: 0.2cm;
+    width: 35%;
+    height: 45px;
+}
+.tf_about
+{
+    background-color: #585858;
+    padding: 1px;
+    margin-bottom: 0.1cm;
+    margin-top: 0.1cm;
+}
+
+.iconO
+{
+width: 35px;
+height: 35px;
+margin-top: 0.1cm;
+}
+
+.iconS
+{
+    width: 13px;
+    height: 13px;
+    margin-left: 0.1cm;
+}
+
+.ta_about,.tf_rating
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.ta_about,.tf_about,.tf_links
+{
+    text-align: justify;
+    margin-left: 0.3cm;
+    margin-right: 0.3cm;
+}
+
+.bt_option
+{
+    height: 5%;
+    width: 20%;
+    background-color: transparent;
+    margin-left: 0.3cm;
+    margin-right: 0.3cm;
+    margin-bottom: 0.2cm;
+    margin-top: 0.2cm;
+}
+
+.bt_option p
+{
+    margin: 0;
+}

@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+    <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <p class="p_1">Categorias</p>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+
+  <div class="div_ctr">
+    <button class="btn_index">
+      <img src="assets/img/button_bg/img_example.png" alt="image_category">
+      <p class="text_button">Ciencia ficcion</p>
+    </button>
+  </div>
+  <div class="div_ctr">
+    <button class="btn_index" [routerLink]="['/catdrama-page']">
+      <img src="assets/img/button_bg/img_drama.png" alt="image_category">
+      <p class="text_button">Drama</p>
+    </button>
+  </div>
+  <div class="div_ctr">
+    <button class="btn_index">
+      <img src="assets/img/button_bg/img_example.png" alt="image_category">
+      <p class="text_button">Fantasia</p>
+    </button>
+  </div>
+  <div class="div_ctr">
+    <button class="btn_index">
+      <img src="assets/img/button_bg/img_example.png" alt="image_category">
+      <p class="text_button">Infantil</p>
+    </button>
+  </div>
+
+</ion-content>
